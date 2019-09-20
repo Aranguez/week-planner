@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Trans/*, withTranslation*/ } from 'react-i18next';
+import Card from 'src/components/Card/Card';
 
 //TODO: types with translation when fixed
 
@@ -44,16 +45,27 @@ const Clock: React.FC<any> = props => {
   };
 
   return (
-    <div className="panel">
+    <Card>
+      <div className="clock">
+        <span> {clockState.hours}</span>
+        <span>:{clockState.mins}</span>
+        <span>:{clockState.secs}</span>
+      </div>
       <div>
-        <h1>
-          <span> {clockState.hours}</span>
-          <span>:{clockState.mins}</span>
-          <span>:{clockState.secs}</span>
-        </h1>
         <Trans i18nKey="home.timeLeft">to finish this day</Trans>
       </div>
-    </div>
+    </Card>
+
+    // <div className="panel">
+    //   <div>
+    //     <h1>
+    //       <span> {clockState.hours}</span>
+    //       <span>:{clockState.mins}</span>
+    //       <span>:{clockState.secs}</span>
+    //     </h1>
+    //     <Trans i18nKey="home.timeLeft">to finish this day</Trans>
+    //   </div>
+    // </div>
   );
 }
 

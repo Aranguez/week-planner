@@ -1,0 +1,21 @@
+.card {
+	width: 46%;
+	display: flex;
+	align-items: center;
+	flex-flow: column;
+	justify-content: center;
+	float: left;
+	height: 110px;
+	background: #fff;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.title {
+	font-weight: bold;
+	color: #ff3a69;
+	font-size: 1.2em;
+	margin-bottom: 0;
+	font-family: 'Nunito', sans-serif;
+}

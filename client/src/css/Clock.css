@@ -1,44 +1,44 @@
-.clock {
+/* .clock {
   width: 38%;
   background: #fff;
   padding: 20px;
   text-align: center;
   display: inline-block;
   border-radius: 10px;
-}
+} */
 
-.clock h1 {
-  font-weight: bold;
-  color: #FF3A69;
-  font-size: 1.2em;
-  margin-bottom: 0;
-  font-family: 'Nunito', sans-serif;
+.clock {
+	font-weight: bold;
+	color: #ff3a69;
+	font-size: 1.2em;
+	margin-bottom: 0;
+	font-family: 'Nunito', sans-serif;
 }
 
 .panel {
-  width: 46%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  float: left;
-  height: 110px;
-  background: #fff;
-  padding: 20px;
-  text-align: center;
-  border-radius: 10px;
+	width: 46%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	float: left;
+	height: 110px;
+	background: #fff;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
 }
 
 .panel h1 {
-  font-weight: bold;
-  color: #FF3A69;
-  font-size: 1.2em;
-  margin-bottom: 0;
-  font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+	color: #ff3a69;
+	font-size: 1.2em;
+	margin-bottom: 0;
+	font-family: 'Nunito', sans-serif;
 }
 /*# sourceMappingURL=Clock.css.map */
